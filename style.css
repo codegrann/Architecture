@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: white;
+    color: black;
+    display: flex;
+    /* justify-content: space-between; */
+    position: absolute;
+    /* top: 0; */
+    width: 100vw;
+}
+header p{
+    margin: 0.75rem 1.75rem 0.75rem 1.75rem;
+}
+#second{
+    margin-left: auto;
+}
+header span{
+    font-weight: bold;
+}
+#homepage{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(architect.jpg);
+    background-size: cover;
+}
+#home{
+    color: white;
+    position: absolute;
+    top: 50vh;
+    left: 45vw;
+}
+#home {
+    font-size: 2rem;
+}
+#home span{
+    background-color: darkslategrey;
+    padding: 0.25rem 0.5rem;
+}
