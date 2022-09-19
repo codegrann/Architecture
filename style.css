@@ -28,7 +28,7 @@ header span{
 #home{
     color: white;
     position: absolute;
-    top: 50vh;
+    top: 40vh;
     left: 45vw;
 }
 #home {
@@ -38,3 +38,22 @@ header span{
     background-color: darkslategrey;
     padding: 0.25rem 0.5rem;
 }
+#project{
+    margin-top: 3rem;
+    width: 100vw;
+}
+#project p{
+    margin-left: 1.75rem;
+}
+#project img{
+    width: 300px;
+    height: auto;
+    margin-top: 1.75rem;
+    cursor: pointer;
+
+}
+#project div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
