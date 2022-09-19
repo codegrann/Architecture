@@ -41,6 +41,7 @@ header span{
 #project{
     margin-top: 3rem;
     width: 100vw;
+    margin-bottom: 3rem;
 }
 #project p{
     margin-left: 1.75rem;
@@ -57,3 +58,16 @@ header span{
     flex-wrap: wrap;
     justify-content: space-around;
 } 
+#about{
+    margin: 1.75rem;
+}
+#about div{
+    display: inline-block;
+}
+#members div{
+    
+}
+#members{
+    /* display: flex; */
+    
+}
