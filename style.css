@@ -7,6 +7,7 @@ header{
     display: flex;
     /* justify-content: space-between; */
     position: fixed;
+    z-index: 1;
     /* top: 0; */
     width: 100vw;
 }
@@ -47,6 +48,8 @@ header span{
 }
 #project p{
     margin-left: 1.75rem;
+    font-size: 18pt;
+    font-weight: bold;
 }
 #project img{
     width: 300px;
@@ -70,6 +73,10 @@ header span{
 #about div{
     display: inline-block;
     margin: 0 0 0 0.5rem;
+}
+#about-firstP{
+    font-size: 18pt;
+    font-weight: bold;
 }
 #about p{
     margin: 1.05rem;
@@ -98,4 +105,30 @@ header span{
 }
 .contact:hover{
     cursor: copy;
+}
+#contact{
+
+    padding: 1.75rem;
+}
+#contact form legend{
+    font-weight: bold;
+    font-size: 18pt;
+}
+#contact form input, textarea{
+    min-width: 700px;
+    min-height: 50px;
+    margin: 1rem 0 1rem 0;
+}
+#contact button{
+    min-width: 150px;
+    padding: 0.5rem 0.25rem;
+    background-color: green;
+    border: 0;
+    border-radius: 0.2rem;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0.75rem;
+}
+#contact button:hover{
+    cursor: pointer;
 }
