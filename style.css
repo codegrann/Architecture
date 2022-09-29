@@ -14,6 +14,12 @@ header{
 header p{
     margin: 0.75rem 1.75rem 0.75rem 1.75rem;
 }
+header a{
+    text-decoration: none;
+    color: blue;
+    letter-spacing: 1.2px;
+    
+}
 #second{
     margin-left: auto;
 }
@@ -34,6 +40,10 @@ header span{
 }
 #home {
     font-size: 2rem;
+}
+font{
+    position: absolute;
+    top: 30px;
 }
 #home span{
     background-color: darkslategrey;
@@ -131,4 +141,14 @@ header span{
 }
 #contact button:hover{
     cursor: pointer;
+}
+#map{
+    max-width: 100vw;
+
+}
+#map img{
+    width: 100%;
+}
+#map img:hover{
+    cursor:grabbing;
 }
