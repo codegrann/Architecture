@@ -12,12 +12,13 @@
 <body>
     <header>
         <p><span>BR</span> Architects</p>
-        <p id="second">Projects</p>
-        <p>About</p>
-        <p>Contact</p>
+        <p id="second"><a href="#project">Projects</a></p>
+        <p><a href="#about">About</a></p>
+        <p><a href="#contact">Contact</a></p>
 
     </header>
     <div id="homepage">
+        <!-- <p><font color="black">newsletter</font></p> -->
         <p id="home"><span>BR</span> Architects</p>
     </div>
     <section id="project">
@@ -80,14 +81,17 @@
                 <textarea name="messsgae" id="mssg" placeholder="your message goes here..."></textarea><br>
                <button>SEND MESSAGE</button>
             </frameset>
-            <frameset id="frm2">
-                <legend>Our newsletter</legend>
-                <p>Subscribe for our newsletter today</p>
-                <input type="email"placeholder="user@gmail.com">
-                <button>SUBSCRIBE</button>
-            </frameset>
-            
         </form>
+        <form action=""><frameset id="frm2">
+            <legend>Our newsletter</legend>
+            <p>Subscribe for our newsletter today</p>
+            <input type="email"placeholder="user@gmail.com" required>
+            <button>SUBSCRIBE</button>
+        </frameset>
+        </form>
+    </section>
+    <section id="map">
+        <img src="map.jpg" alt="">
     </section>
 
 </body>
