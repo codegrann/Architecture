@@ -1,3 +1,7 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
 body{
     margin: 0;
 }
@@ -37,6 +41,7 @@ header span{
     position: absolute;
     top: 40vh;
     left: 45vw;
+    overflow: hidden;
 }
 #home {
     font-size: 2rem;
