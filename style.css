@@ -6,13 +6,12 @@ body{
     margin: 0;
 }
 header{
-    background-color: white;
-    color: black;
+    background-color: rgb(217, 227, 168);
+    color: rgb(6, 6, 6);
     display: flex;
     /* justify-content: space-between; */
     position: fixed;
     z-index: 1;
-    /* top: 0; */
     width: 100vw;
 }
 header p{
