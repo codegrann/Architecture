@@ -9,7 +9,7 @@ header{
     background-color: rgb(217, 227, 168);
     color: rgb(6, 6, 6);
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     position: fixed;
     z-index: 1;
     width: 100vw;
@@ -21,8 +21,8 @@ header p{
     font-size: 14pt;
 }
 
-header p:nth-of-type(1){
-    font-size: 18pt;
+#logo{
+    font-size: 24pt;
 }
 header a{
     text-decoration: none;
@@ -30,6 +30,14 @@ header a{
     letter-spacing: 1.2px;
     
 }
+.menu{
+    display: flex;
+}
+
+
+
+
+
 #second{
     margin-left: auto;
 }
@@ -162,4 +170,10 @@ font{
 }
 #map img:hover{
     cursor:grabbing;
+}
+
+
+
+@media(max-width:550px){
+    
 }
