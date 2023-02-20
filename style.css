@@ -36,6 +36,10 @@ header a{
 #open{
     display: none;
 }
+#close{
+    display: none;
+    font-size: 30pt;
+}
 
 
 
@@ -182,7 +186,7 @@ font{
         /* display: block; */
         /* height: 100px; */
     }
-    .menu{
+    .link_list{
         display: none;
     }
     hr{
@@ -193,5 +197,8 @@ font{
         display: block;
         margin-right: 1rem;
         margin-top: 0.4rem;
+    }
+    #close{
+        display: inline;
     }
 }
