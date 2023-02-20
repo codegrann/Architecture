@@ -192,6 +192,7 @@ font{
     hr{
         width: 36px;
         height: 1px;
+        border: 1px solid black;
     }
     #open{
         display: block;
