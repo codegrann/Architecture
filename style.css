@@ -37,7 +37,7 @@ header a{
     display: none;
 }
 #close{
-    display: none;
+    /* display: none; */
     font-size: 30pt;
 }
 
@@ -200,6 +200,6 @@ font{
         margin-top: 0.4rem;
     }
     #close{
-        display: inline;
+        /* display: inline; */
     }
 }
