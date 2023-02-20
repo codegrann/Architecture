@@ -22,7 +22,7 @@ header p{
 }
 
 #logo{
-    font-size: 24pt;
+    font-size: 20pt;
 }
 header a{
     text-decoration: none;
@@ -32,6 +32,9 @@ header a{
 }
 .menu{
     display: flex;
+}
+#open{
+    display: none;
 }
 
 
@@ -175,5 +178,18 @@ font{
 
 
 @media(max-width:550px){
-    
+    header{
+        /* display: block; */
+        /* height: 100px; */
+    }
+    .menu{
+        display: none;
+    }
+    hr{
+        width: 36px;
+        height: 1px;
+    }
+    #open{
+        display: block;
+    }
 }
