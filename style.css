@@ -18,6 +18,11 @@ header{
 }
 header p{
     margin: 0.75rem 1.75rem 0.75rem 1.75rem;
+    font-size: 14pt;
+}
+
+header p:nth-of-type(1){
+    font-size: 18pt;
 }
 header a{
     text-decoration: none;
