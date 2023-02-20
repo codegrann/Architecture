@@ -191,5 +191,7 @@ font{
     }
     #open{
         display: block;
+        margin-right: 1rem;
+        margin-top: 0.4rem;
     }
 }
