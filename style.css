@@ -198,10 +198,11 @@ font{
         display: flex;
         flex-direction: column;
         background-color: #21cebd;
-        justify-content: flex-start;
+        /* justify-content: flex-start; */
         padding-right: 3.5rem;
         row-gap: 1rem;
         /* height: 10vh; */
+      
     }
     hr{
         width: 36px;
