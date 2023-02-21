@@ -184,15 +184,24 @@ font{
 @media(max-width:550px){
     header{
         /* display: block; */
-        /* height: 100px; */
+        height: 10vh;
     }
     .link_list{
         /* display: none; */
+        margin: 0;
+        
     }
     .menu{
+        position: absolute;
+        top: 0;
+        left: 50vw;
         display: flex;
         flex-direction: column;
         background-color: #21cebd;
+        justify-content: flex-start;
+        padding-right: 3.5rem;
+        row-gap: 1rem;
+        /* height: 10vh; */
     }
     hr{
         width: 36px;
