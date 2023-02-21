@@ -187,7 +187,12 @@ font{
         /* height: 100px; */
     }
     .link_list{
-        display: none;
+        /* display: none; */
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        background-color: #21cebd;
     }
     hr{
         width: 36px;
@@ -195,11 +200,14 @@ font{
         border: 1px solid black;
     }
     #open{
-        display: block;
+        /* display: block; */
         margin-right: 1rem;
         margin-top: 0.4rem;
     }
     #close{
-        /* display: inline; */
+        display: inline;
+        position: absolute;
+        right: 0;
+        /* top: 0; */
     }
 }
