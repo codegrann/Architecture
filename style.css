@@ -10,8 +10,7 @@ body{
 header{
     background-color: rgb(217, 227, 168);
     color: rgb(6, 6, 6);
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -197,25 +196,26 @@ font{
 
 
 @media(max-width:550px){
-    /* header{ */
-        /* display: block; */
+    header{
+        display: block;
         /* height: 10vh; */
-    /* } */
+    }
     /* .link_list{ */
         /* display: none; */
         /* margin: 0; */
         /*  */
     /* } */
     .menu{
-        /* /* position: absolute; */ 
+        display: block;
+        position: absolute; 
         /* /* top: 0; */ 
-        /* /* left: 50vw; */ 
-        display: none;
-        /* /* flex-direction: column; */ 
+        right: 10px; 
+        display: flex;
+        flex-direction: column; 
         background-color: #21cebd;
         /* justify-content: flex-start; */
         /* padding-right: 3.5rem; */
-        /* row-gap: 1rem; */
+        row-gap: 1rem;
         /* height: 10vh; */
       
     }
@@ -230,7 +230,7 @@ font{
     }
     #close{
         position: absolute;
-        display: block;
+        /* display: block; */
         /* right: 0; */
         /* top: 0; */
     }
