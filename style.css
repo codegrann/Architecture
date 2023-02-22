@@ -10,8 +10,8 @@ body{
 header{
     background-color: rgb(217, 227, 168);
     color: rgb(6, 6, 6);
-    display: flex;
-    /* justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     position: fixed;
     z-index: 1;
     width: 100vw;
@@ -22,7 +22,7 @@ header{
 
 #logo{
     font-size: 18pt;
-
+    border: 2px solid red;
 }
 header a{
     text-decoration: none;
@@ -31,8 +31,13 @@ header a{
     
 }
 .menu{
-    margin:0 auto;
+    /* margin:0 auto; */
+    /* align-self: flex-end; */
     display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* column-gap: 1rem; */
+    border: 2px solid red;
 }
 #open{
     display: none;
