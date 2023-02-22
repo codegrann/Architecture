@@ -39,6 +39,7 @@ header a{
     column-gap: 5rem;
     align-items: center;
     border: 2px solid red;
+    padding-right: 2rem;
 }
 #open{
     display: none;
