@@ -4,25 +4,24 @@
 }
 body{
     margin: 0;
+    font-family: monospace;
+    font-size: 16px;
 }
 header{
     background-color: rgb(217, 227, 168);
     color: rgb(6, 6, 6);
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     position: fixed;
     z-index: 1;
     width: 100vw;
     height: 10vh;
     box-shadow: 3px 3px 10px rgb(97, 92, 92);
 }
-header p{
-    margin: 0.75rem 1.75rem 0.75rem 1.75rem;
-    font-size: 14pt;
-}
+
 
 #logo{
-    font-size: 20pt;
+    /* font-size: 20pt; */
 }
 header a{
     text-decoration: none;
@@ -34,7 +33,13 @@ header a{
     display: flex;
 }
 #open{
-    display: none;
+    /* display: none; */
+
+}
+hr{
+    width: 36px;
+        height: 1px;
+        border: 1px solid black;
 }
 #close{
     display: none;
