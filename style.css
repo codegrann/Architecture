@@ -182,42 +182,43 @@ font{
 
 
 @media(max-width:550px){
-    header{
+    /* header{ */
         /* display: block; */
-        height: 10vh;
-    }
-    .link_list{
+        /* height: 10vh; */
+    /* } */
+    /* .link_list{ */
         /* display: none; */
-        margin: 0;
-        
-    }
-    .menu{
-        position: absolute;
-        top: 0;
-        left: 50vw;
-        display: flex;
-        flex-direction: column;
-        background-color: #21cebd;
+        /* margin: 0; */
+        /*  */
+    /* } */
+    /* .menu{ */
+        /* /* position: absolute; */ */
+        /* /* top: 0; */ */
+        /* /* left: 50vw; */ */
+        /* /* display: flex; */ */
+        /* /* flex-direction: column; */ */
+        /* background-color: #21cebd; */
         /* justify-content: flex-start; */
-        padding-right: 3.5rem;
-        row-gap: 1rem;
+        /* padding-right: 3.5rem; */
+        /* row-gap: 1rem; */
         /* height: 10vh; */
       
-    }
-    hr{
-        width: 36px;
-        height: 1px;
-        border: 1px solid black;
-    }
-    #open{
+    /* } */
+    /* hr{ */
+        /* width: 36px; */
+        /* height: 1px; */
+        /* border: 1px solid black; */
+    /* } */
+    /* #open{ */
         /* display: block; */
-        margin-right: 1rem;
-        margin-top: 0.4rem;
-    }
-    #close{
-        display: inline;
-        position: absolute;
-        right: 0;
+        /* margin-right: 1rem; */
+        /* margin-top: 0.4rem; */
+    /* } */
+    /* #close{ */
+        /* display: inline; */
+        /* position: absolute; */
+        /* right: 0; */
         /* top: 0; */
-    }
+    /* } */
+
 }
