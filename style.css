@@ -31,7 +31,7 @@ header a{
     
 }
 .menu{
-    /* margin:0 auto; */
+    margin:0 auto;
     /* align-self: flex-end; */
     display: flex;
     /* flex-direction: row; */
@@ -236,6 +236,8 @@ font{
     }
 
 }
+
+
 
 @media(max-width:690px){
     .menu{
