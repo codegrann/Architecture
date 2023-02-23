@@ -211,12 +211,13 @@ font{
         display: block;
         position: absolute; 
         /* /* top: 0; */ 
-        right: 10px; 
+        right: 0; 
+        margin-right: -0.8rem;
         display: flex;
         flex-direction: column; 
         background-color: #21cebd;
         /* justify-content: flex-start; */
-        /* padding-right: 3.5rem; */
+        padding-bottom: 1em;
         row-gap: 1rem;
         /* height: 10vh; */
       
@@ -239,7 +240,9 @@ font{
         /* right: 0; */
         /* top: 0; */
     }
-
+    #logo{
+        padding-left: 0;
+    }
 }
 
 
