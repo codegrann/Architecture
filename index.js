@@ -10,6 +10,7 @@ open_btn.addEventListener("click", opening);
 function closing(){
  open_btn.style.display="block";
  close_btn.style.display="none";
+ menu
 }
 
 function opening(){

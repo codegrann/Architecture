@@ -208,12 +208,12 @@ font{
         top: 0;
         right: 0;
         height: 100vh;
-        /* padding: 0.5rem; */
         row-gap: 2rem;
         z-index: 1;
     }
     #open{
         display: block;
+        z-index: 3;
     }
     #logo{
         font-size: calc(15px + 1vw);
