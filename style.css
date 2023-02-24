@@ -20,6 +20,7 @@ header{
 .menu{
     /* display: none; */
     width: 40vw;
+    background-color: aqua;
     border: 2px solid red;
     margin-left: auto;
     display: flex;
@@ -34,6 +35,8 @@ header{
 
 #open{
     display: none;
+    position: relative;
+    left: calc(50vw - 30px);
 
 }
 hr{
@@ -189,10 +192,18 @@ font{
 
 
 @media(max-width:690px){
-    /* .menu{ */
+    header{
+        padding-left: 0;
+    }
+    .menu{
+        display: none;
+
         /* column-gap: 2rem; */
-    /* } */
-    /* #logo{ */
-        /* font-size: calc(15px + 1vw); */
-    /* } */
+    }
+    #open{
+        display: block;
+    }
+    #logo{
+        font-size: calc(15px + 1vw);
+    }
 }
