@@ -200,9 +200,17 @@ font{
         padding-left: 0;
     }
     .menu{
-        display: none;
-
-        /* column-gap: 2rem; */
+        /* display: none; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        /* padding: 0.5rem; */
+        row-gap: 2rem;
+        z-index: 1;
     }
     #open{
         display: block;
