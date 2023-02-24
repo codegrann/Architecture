@@ -10,11 +10,12 @@ body{
 header{
     display: flex;
     align-items: center;
-    padding: 1.3rem;
+    padding: 0.5rem;
 }
 #logo{
     margin-left: 1rem;
     border: 2px solid red;
+    font-size: 1.5rem;
 }
 .menu{
     /* display: none; */
@@ -23,6 +24,11 @@ header{
     margin-left: auto;
     display: flex;
     justify-content: space-evenly;
+    padding: 0.5rem;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
 }
 
 
