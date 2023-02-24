@@ -208,8 +208,13 @@ font{
         top: 0;
         right: 0;
         height: 100vh;
-        row-gap: 2rem;
+        padding-top: 6%;
+        /* row-gap: 3rem; */
         z-index: 1;
+    }
+    ul li{
+        margin-top: 0.7rem;
+        margin-left: 0.7rem;
     }
     #open{
         display: block;
@@ -218,10 +223,15 @@ font{
     #logo{
         font-size: calc(15px + 1vw);
     }
+    #close{
+        position: relative;
+        left: 40%;
+        z-index: 10;
+    }
 }
 
-@media(max-width:300px){
-    #open{
-        /* left: 40vw; */
+@media(max-width:290px){
+    #close{
+        left: 24%;
     }
 }

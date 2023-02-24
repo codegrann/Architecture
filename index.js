@@ -10,11 +10,11 @@ open_btn.addEventListener("click", opening);
 function closing(){
  open_btn.style.display="block";
  close_btn.style.display="none";
- menu
+ menu.style.display="none";
 }
 
 function opening(){
-    // menu.style.display="block";
+    menu.style.display="block";
 //    links.style.display="block";
     open_btn.style.display="none";
    close_btn.style.display="block";
