@@ -6,6 +6,7 @@ body{
     margin: 0;
     font-family: monospace;
     font-size: 16px;
+    overflow-x: hidden;
 }
 header{
     display: flex;
@@ -31,12 +32,15 @@ header{
     color: black;
     text-decoration: none;
 }
+.menu li{
+    list-style-type: none;
+}
 
 
 #open{
     display: none;
     position: relative;
-    left: calc(50vw - 30px);
+    left: calc(45vw - 30px);
 
 }
 hr{
@@ -205,5 +209,11 @@ font{
     }
     #logo{
         font-size: calc(15px + 1vw);
+    }
+}
+
+@media(max-width:300px){
+    #open{
+        /* left: 40vw; */
     }
 }
