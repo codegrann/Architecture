@@ -13,14 +13,16 @@ header{
     padding: 1.3rem;
 }
 #logo{
-    /* margin-left: 2rem; */
+    margin-left: 1rem;
     border: 2px solid red;
 }
 .menu{
     /* display: none; */
+    width: 40vw;
     border: 2px solid red;
     margin-left: auto;
     display: flex;
+    justify-content: space-evenly;
 }
 
 
