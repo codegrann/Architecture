@@ -9,11 +9,20 @@ body{
 }
 header{
     display: flex;
-    /* flex-direction: row-reverse; */
+    align-items: center;
+    padding: 1.3rem;
+}
+#logo{
+    /* margin-left: 2rem; */
+    border: 2px solid red;
 }
 .menu{
     /* display: none; */
+    border: 2px solid red;
+    margin-left: auto;
+    display: flex;
 }
+
 
 #open{
     display: none;
