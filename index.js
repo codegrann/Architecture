@@ -5,7 +5,7 @@ let links=document.querySelectorAll(".linked_list")
 // let close_btn=document.querySelector("#close");
 
 menu.style.backgroundColor="white";
-// menu.style.display="none"
+menu.style.display="none"
 close.addEventListener("click", closing);
 open.addEventListener("click", opening);
 
