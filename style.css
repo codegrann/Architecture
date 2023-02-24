@@ -21,7 +21,7 @@ header{
 .menu{
     /* display: none; */
     width: 40vw;
-    background-color: aqua;
+    /* background-color: aqua; */
     border: 2px solid red;
     margin-left: auto;
     display: flex;
@@ -204,6 +204,7 @@ font{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        background-color: #ffffff;
         position: absolute;
         top: 0;
         right: 0;
