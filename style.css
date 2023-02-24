@@ -7,10 +7,16 @@ body{
     font-family: monospace;
     font-size: 16px;
 }
-
+header{
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+.menu{
+    /* display: none; */
+}
 
 #open{
-    /* display: none; */
+    display: none;
 
 }
 hr{
@@ -19,7 +25,7 @@ hr{
         border: 1px solid black;
 }
 #close{
-    /* display: none; */
+    display: none;
     font-size: 30pt;
 }
 
@@ -27,12 +33,6 @@ hr{
 
 
 
-#second{
-    margin-left: auto;
-}
-header span{
-    font-weight: bold;
-}
 #homepage{
     height: 100vh;
     width: 100vw;

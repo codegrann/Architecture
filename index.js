@@ -14,8 +14,8 @@ function closing(){
 }
 
 function opening(){
-    menu.style.display="block";
-   links.style.display="block";
-   close.style.display="inline";
+    // menu.style.display="block";
+//    links.style.display="block";
+//    close.style.display="inline";
 }
 
