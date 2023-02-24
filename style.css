@@ -32,7 +32,7 @@ header a{
 }
 .menu{
     margin:0 auto;
-    /* align-self: flex-end; */
+    display: none;
     display: flex;
     /* flex-direction: row; */
     /* justify-content: flex-start; */
@@ -208,7 +208,7 @@ font{
         /*  */
     /* } */
     .menu{
-        display: none;
+        /* display: none; */
         position: absolute; 
         right: 0; 
         margin-right: -0.8rem;
