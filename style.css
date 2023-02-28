@@ -10,6 +10,7 @@ body{
 }
 #header{
     /* border: 2px solid red; */
+    /* box-shadow: 3px 3px 10px rgb(5, 5, 5); */
     /* position: fixed; */
 }
 
@@ -34,6 +35,7 @@ header{
     align-items: center;
     padding: 0.5rem;
     /* position: fixed; */
+   
 }
 #logo{
     margin-left: 1rem;

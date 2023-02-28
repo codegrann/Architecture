@@ -4,8 +4,8 @@ var menu=document.querySelector(".menu");
 let header=document.querySelector("#header");
 
 
-// header.style.border="2px solid red";
-// header.style.position="fixed"
+header.style.border="2px solid red";
+// header.style.boxShadow="3px 3px 10px black"
 close_btn.addEventListener("click", closing);
 open_btn.addEventListener("click", opening);
 
