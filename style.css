@@ -14,18 +14,20 @@ body{
 }
 
 #nav_to_top{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-size: 15pt;
+    background-color: rgb(199, 193, 193);
+    border-radius: 20%;
     color: grey;
     padding: 0.5%;
-    position: absolute;
+    position: fixed;
     left: 95%;
+    top: 80%;
     transition: all 500ms;
 }
 #nav_to_top:hover{
     background-color: rgb(159, 155, 155);
-    color: rgb(58, 57, 57);
-    border-radius: 15%;
+    color: rgb(58, 57, 57)
 }
 header{
     display: flex;
