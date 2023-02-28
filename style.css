@@ -77,13 +77,14 @@ hr{
 
 
 
-
+/* HOMEPAGE SECTION */
 
 #homepage{
     height: 100vh;
     width: 100vw;
     background-image: url(architect.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 #home{
     border: 2px solid red;
