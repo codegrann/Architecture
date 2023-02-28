@@ -86,15 +86,15 @@ hr{
     background-size: cover;
 }
 #home{
-    color: white;
+    border: 2px solid red;
+    color: rgb(132, 117, 117);
     position: absolute;
     top: 40vh;
     left: 45vw;
     overflow: hidden;
-}
-#home {
     font-size: 2rem;
 }
+
 font{
     position: absolute;
     top: 30px;
@@ -102,7 +102,13 @@ font{
 #home span{
     background-color: darkslategrey;
     padding: 0.25rem 0.5rem;
+    color: aliceblue;
 }
+
+
+
+
+/* PROJECTS SECTION */
 #project{
     /* margin-top: 3rem; */
     width: 100vw;
