@@ -266,6 +266,9 @@ font{
 }
 
 @media(max-width:550px){
+    #nav_to_top{
+        left: 90%;
+    }
     #home{
         left: 25%;
         font-size: 18pt;
