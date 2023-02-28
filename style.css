@@ -12,6 +12,21 @@ body{
     /* border: 2px solid red; */
     /* position: fixed; */
 }
+
+#nav_to_top{
+    border: 2px solid red;
+    font-size: 15pt;
+    color: grey;
+    padding: 0.5%;
+    position: absolute;
+    left: 95%;
+    transition: all 500ms;
+}
+#nav_to_top:hover{
+    background-color: rgb(159, 155, 155);
+    color: rgb(58, 57, 57);
+    border-radius: 15%;
+}
 header{
     display: flex;
     align-items: center;
