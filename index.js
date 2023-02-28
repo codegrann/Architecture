@@ -1,10 +1,11 @@
 let close_btn=document.querySelector("#close");
 let open_btn=document.querySelector("#open");
 var menu=document.querySelector(".menu");
-let header=document.querySelector("header");
+let header=document.querySelector("#header");
 
 
-
+// header.style.border="2px solid red";
+// header.style.position="fixed"
 close_btn.addEventListener("click", closing);
 open_btn.addEventListener("click", opening);
 
