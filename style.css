@@ -200,8 +200,8 @@ font{
         padding-left: 0;
     }
     .menu{
-        /* display: none; */
-        display: flex;
+        display: none;
+        /* display: flex; */
         flex-direction: column;
         justify-content: flex-start;
         background-color: #ffffff;
