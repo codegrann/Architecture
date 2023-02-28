@@ -221,8 +221,10 @@ font{
 
 
 
-@media(max-width:550px){
-   
+@media(max-width:850px){
+    #homepage{
+        background-position: 50%;
+    }
 }
 
 
