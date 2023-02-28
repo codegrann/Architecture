@@ -14,7 +14,7 @@ function closing(){
 }
 
 function opening(){
-    menu.style.display="block";
+    menu.style.display="flex";
 //    links.style.display="block";
     open_btn.style.display="none";
    close_btn.style.display="block";
