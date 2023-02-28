@@ -240,6 +240,7 @@ font{
         justify-content: flex-start;
         background-color: #ffffff;
         position: absolute;
+        /* margin-top: -0.1rem; */
         top: 0;
         right: 0;
         height: 100vh;
