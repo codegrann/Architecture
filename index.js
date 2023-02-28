@@ -1,6 +1,7 @@
 let close_btn=document.querySelector("#close");
 let open_btn=document.querySelector("#open");
 var menu=document.querySelector(".menu");
+let header=document.querySelector("header");
 
 
 
