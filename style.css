@@ -122,17 +122,22 @@ font{
     font-weight: bold;
 }
 #project img{
-    width: 300px;
-    height: auto;
-    margin-top: 1.75rem;
-    cursor: pointer;
+    /* width: 300px; */
+    /* height: auto; */
+    /* margin-top: 1.75rem; */
+    /* cursor: pointer; */
 
 }
 #project div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* justify-content: space-evenly; */
 } 
+
+
+
+/* ABOUT SECTION */
 #about{
     /* margin: 1.75rem; */
     width: 100vw;
