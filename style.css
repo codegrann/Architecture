@@ -8,10 +8,10 @@ body{
     font-size: 16px;
     overflow-x: hidden;
 }
-#header{
+header{
     /* border: 2px solid red; */
     /* box-shadow: 3px 3px 10px rgb(5, 5, 5); */
-    /* position: fixed; */
+    /* position: relative; */
 }
 
 #nav_to_top{
@@ -230,6 +230,9 @@ font{
 
 
 @media(max-width:690px){
+    #header{
+        /* position: relative; */
+    }
     header{
         padding-left: 0;
     }
