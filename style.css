@@ -218,18 +218,26 @@ font{
 
 /* CONTACT SECTION */
 #contact{
-
-    padding: 1.75rem;
+    border: 2px solid red;
+    padding: 3%;
 }
-#contact form legend{
+fieldset{
+    /* margin-left: 20%; */
+    /* border: none; */
+}
+#contact legend{
     font-weight: bold;
-    font-size: 18pt;
+    font-size: 150%;
 }
-#contact form input, textarea{
-    min-width: 700px;
-    min-height: 50px;
-    margin: 1rem 0 1rem 0;
+#contact input{
+    height: 4vw;
 }
+#contact input, textarea{
+    width: 50vw;
+    margin: 1% 0 1% 0;
+    padding-left: 1%;
+}
+
 #contact button{
     min-width: 150px;
     padding: 0.5rem 0.25rem;
