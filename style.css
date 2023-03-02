@@ -175,7 +175,9 @@ font{
     margin: 1.05rem;
 }
 #members div{
-   max-width: 300px; 
+    /* grid-column: 1; */
+    /* display: inline-block; */
+   width: 18vw; 
 }
 #members p{
     margin-bottom: 0.5rem;
@@ -186,9 +188,11 @@ font{
     border-radius: 0.3rem;
 }
 #members{
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space space-between; */
+    /* margin: 0 auto; */
+    border: 2px solid red;
+   display: flex;
+   justify-content: flex-end;
+   /* flex-direction: column; */
 }
 .names{
     font-weight: bold;
