@@ -366,6 +366,12 @@ fieldset{
     #project div{
         grid-template-columns: repeat(2, 1fr);
     }
+    #about-firstP{
+        font-size: 10pt;
+    }
+    #p-long{
+        font-size: 8pt;
+    }
     #contact input{
         height: 40px;
     }
