@@ -352,6 +352,7 @@ fieldset{
         width: 100%;
         font-size: 8pt;
     }
+    
 }
 
 @media(max-width:550px){
@@ -367,6 +368,12 @@ fieldset{
     }
     #contact input{
         height: 40px;
+    }
+    #contact legend{
+        font-size: 10pt;
+    }
+    #contact p{
+        font-size: 10pt;
     }
 }
 
