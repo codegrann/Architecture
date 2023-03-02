@@ -149,12 +149,21 @@ font{
 #about{
     /* margin: 1.75rem; */
     width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    /* flex-direction: column; */
+    /* justify-content: center; */
     background-color: aquamarine;
     padding: 2%;
     
+}
+#about-firstP, #p-long{
+    /* grid-column-start: 1; */
+    grid-column: 1/5;
+}
+#p-long{
+    /* margin-bottom: ; */
 }
 #p-long, .p-describe{
     font-size: 90%;
@@ -174,26 +183,21 @@ font{
 #about p{
     margin: 1.05rem;
 }
-#members div{
-    /* grid-column: 1; */
-    /* display: inline-block; */
-   width: 18vw; 
+
+.members{
+   width: 18vw;
+   /* height: 10vh; */
+   border: 2px solid red; 
 }
-#members p{
+.members p{
     margin-bottom: 0.5rem;
     margin-left: 0;
 }
-#members img{
+.members img{
     width: 100%;
     border-radius: 0.3rem;
 }
-#members{
-    /* margin: 0 auto; */
-    border: 2px solid red;
-   display: flex;
-   justify-content: flex-end;
-   /* flex-direction: column; */
-}
+
 .names{
     font-weight: bold;
 }
