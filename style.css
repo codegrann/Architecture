@@ -222,7 +222,7 @@ font{
     padding: 3%;
 }
 fieldset{
-    margin:auto;
+    margin: auto;
     /* border: none; */
     width: 70%;
 }
@@ -335,6 +335,22 @@ fieldset{
 
     #p-long, .p-describe{
         font-size: 80%;
+    }
+
+    #contact{
+        padding: 1%;
+    }
+    fieldset{
+        width: 90%;
+    }
+    #contact input{
+        height: 5vw;
+        
+        
+    }
+    #contact input, textarea{
+        width: 100%;
+        font-size: 8pt;
     }
 }
 
