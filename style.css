@@ -365,6 +365,9 @@ fieldset{
     #project div{
         grid-template-columns: repeat(2, 1fr);
     }
+    #contact input{
+        height: 40px;
+    }
 }
 
 @media(max-width:290px){
