@@ -152,8 +152,7 @@ font{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    /* flex-direction: column; */
-    /* justify-content: center; */
+    /* gap: 1px; */
     background-color: aquamarine;
     padding: 2%;
     
@@ -161,12 +160,13 @@ font{
 #about-firstP, #p-long{
     /* grid-column-start: 1; */
     grid-column: 1/5;
+    margin: 1.05rem;
 }
 #p-long{
     /* margin-bottom: ; */
 }
 #p-long, .p-describe{
-    font-size: 90%;
+    font-size: 75%;
     line-height: 1.5;
     word-spacing: normal;
     /* letter-spacing: 0; */
@@ -180,18 +180,16 @@ font{
     font-size: 18pt;
     font-weight: bold;
 }
-#about p{
-    margin: 1.05rem;
-}
+
 
 .members{
-   width: 18vw;
+   width: 22vw;
    /* height: 10vh; */
    border: 2px solid red; 
 }
 .members p{
-    margin-bottom: 0.5rem;
-    margin-left: 0;
+    /* margin-bottom: 0; */
+    /* margin-left: 0; */
 }
 .members img{
     width: 100%;
@@ -207,7 +205,10 @@ font{
 .contact:hover{
     cursor: copy;
 }
-
+.names, .title{
+    font-size: 80%;
+    /* margin-bottom: 0; */
+}
 
 
 
