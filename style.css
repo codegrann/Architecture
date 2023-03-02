@@ -115,7 +115,7 @@ font{
     flex-direction: column;
     width: 100vw;
     margin-bottom: 3rem;
-    background-color: rgb(93, 96, 96);
+    background-color: rgb(146, 152, 152);
     padding-bottom: 3rem;
 }
 #project p{
@@ -149,9 +149,19 @@ font{
 #about{
     /* margin: 1.75rem; */
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: aquamarine;
-    /* padding: 1.75rem; */
+    padding: 2%;
     
+}
+#p-long, .p-describe{
+    font-size: 90%;
+    line-height: 1.5;
+    word-spacing: normal;
+    /* letter-spacing: 0; */
+    /* font-size: clamp(10pt, 14pt, 30pt); */
 }
 #about div{
     display: inline-block;
@@ -189,6 +199,11 @@ font{
 .contact:hover{
     cursor: copy;
 }
+
+
+
+
+/* CONTACT SECTION */
 #contact{
 
     padding: 1.75rem;
@@ -276,6 +291,10 @@ font{
         position: relative;
         left: 40%;
         z-index: 10;
+    }
+
+    #p-long, .p-describe{
+        font-size: 80%;
     }
 }
 
