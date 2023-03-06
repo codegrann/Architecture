@@ -43,13 +43,15 @@ console.log(inputs)
 inputs.forEach(
     (input)=>{
         input.addEventListener("input", invalid);
+        input.addEventListener("change", invalid);
+        input.addEventListener("focus", invalid);
         function invalid(){
             if(input.value.length<=5){
-                // input.style.backgroundColor="red";
-                input.style.borderColor="red";
+                input.style.backgroundColor=" rgb(190, 146, 146)";
+                // input.style.borderColor="red";
                 }
             else{
-                input.style.backgroundColor="blue";
+                input.style.backgroundColor="white";
                 input.style.border="none";
                 }
         }
