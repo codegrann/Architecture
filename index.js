@@ -4,6 +4,7 @@ var menu=document.querySelector(".menu");
 let header=document.querySelector("#header");
 let inputFields=document.querySelectorAll("input")
 let btns=document.querySelectorAll(".btn");
+let textarea=document.querySelector("#mssg");
 
 
 // FUNCTIONS TO TOGGLE NAVIGATION MENU
@@ -36,10 +37,11 @@ function prevent(el){
 
 
 
-
+// VALIDATION OF FORM
 let inputs=Array.from(inputFields);
 // console.log(inputFields);
 console.log(inputs)
+// textarea.addEventListener("input", invalid);
 inputs.forEach(
     (input)=>{
         input.addEventListener("input", invalid);
