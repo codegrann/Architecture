@@ -6,6 +6,24 @@ let inputFields=document.querySelectorAll("input")
 let btns=document.querySelectorAll(".btn");
 
 
+// FUNCTIONS TO TOGGLE NAVIGATION MENU
+close_btn.addEventListener("click", closing);
+open_btn.addEventListener("click", opening);
+
+function closing(){
+ open_btn.style.display="block";
+ close_btn.style.display="none";
+ menu.style.display="none";
+}
+
+function opening(){
+    menu.style.display="flex";
+//    links.style.display="block";
+    open_btn.style.display="none";
+   close_btn.style.display="block";
+}
+
+
 
 // PREVENTING SUBMISSION OF DOCUMENT
 btns.forEach((btn)=>{
@@ -24,29 +42,22 @@ let inputs=Array.from(inputFields);
 console.log(inputs)
 inputs.forEach(
     (input)=>{
-        if(input==invalid){
-        input.style.backgroundColor="red";
+        input.addEventListener("input", invalid);
+        function invalid(){
+            if(input.value.length<=5){
+                // input.style.backgroundColor="red";
+                input.style.borderColor="red";
+                }
+            else{
+                input.style.backgroundColor="blue";
+                input.style.border="none";
+                }
         }
+       
     }
 )
 
 
 
 
-
-close_btn.addEventListener("click", closing);
-open_btn.addEventListener("click", opening);
-
-function closing(){
- open_btn.style.display="block";
- close_btn.style.display="none";
- menu.style.display="none";
-}
-
-function opening(){
-    menu.style.display="flex";
-//    links.style.display="block";
-    open_btn.style.display="none";
-   close_btn.style.display="block";
-}
 
