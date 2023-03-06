@@ -81,7 +81,7 @@ hr{
     height: 100vh;
     width: 100vw;
     background-image: url(architect.jpg);
-    background: radial-gradient(closest-side at 60% 55%, rgb(175, 174, 174), rgb(41, 40, 40));
+    /* background-image: radial-gradient(closest-side at 60% 55%, rgb(175, 174, 174), rgb(41, 40, 40)); */
     /* backdrop-filter: blur(5rem); */
     background-size: cover;
     background-attachment: fixed;
