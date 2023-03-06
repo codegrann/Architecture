@@ -81,8 +81,11 @@ hr{
     height: 100vh;
     width: 100vw;
     background-image: url(architect.jpg);
+    background: radial-gradient(rgb(167, 163, 163), rgb(243, 239, 239));
+    /* backdrop-filter: blur(5rem); */
     background-size: cover;
     background-attachment: fixed;
+   
 }
 #home{
     /* border: 2px solid red; */
@@ -115,7 +118,8 @@ font{
     flex-direction: column;
     width: 100vw;
     margin-bottom: 3rem;
-    background-color: rgb(146, 152, 152);
+    /* background-color: rgb(146, 152, 152); */
+    background: radial-gradient(rgb(194, 191, 191), rgb(139, 137, 137),  rgb(33, 32, 32));
     padding-bottom: 3rem;
 }
 #project p{
