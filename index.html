@@ -115,9 +115,9 @@
             <fieldset id="frm1">
                 <legend>Contact us</legend>
                 <input class="form-control"" type="email" placeholder="user@gmail.com" required><br>
-                <input type="text" placeholder="subject"><br>
-                <textarea name="messsgae" id="mssg" rows="10px" placeholder="your message goes here..."></textarea><br>
-                <button class="btn btn-primary">SEND MESSAGE</button>
+                <input type="text" placeholder="subject" minlength="5"><br>
+                <textarea name="messsgae" id="mssg" rows="10px" placeholder="your message goes here..." required></textarea><br>
+                <button class="btn btn-primary" id="btn1">SEND MESSAGE</button>
             </fieldset>
         </form>
         <form action="GET">
@@ -125,7 +125,7 @@
                 <legend>Our newsletter</legend>
                 <p>Subscribe for our newsletter today</p>
                 <input type="email" placeholder="user@gmail.com" required>
-                <button>SUBSCRIBE</button>
+                <button class="btn btn-primary" id="btn2">SUBSCRIBE</button>
             </fieldset>
         </form>
     </section>

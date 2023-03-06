@@ -218,12 +218,12 @@ font{
 
 /* CONTACT SECTION */
 #contact{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 3%;
 }
 fieldset{
     margin: auto;
-    /* border: none; */
+    border: none;
     width: 70%;
 }
 #contact legend{
@@ -258,6 +258,7 @@ fieldset{
 }
 #map img{
     width: 100%;
+   
 }
 #map img:hover{
     cursor:grabbing;
@@ -351,6 +352,12 @@ fieldset{
     #contact input, textarea{
         width: 100%;
         font-size: 8pt;
+    }
+ 
+}
+@media(min-width:690px){
+    #map img{
+        height: 70vh;
     }
     
 }

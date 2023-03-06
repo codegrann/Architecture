@@ -2,10 +2,38 @@ let close_btn=document.querySelector("#close");
 let open_btn=document.querySelector("#open");
 var menu=document.querySelector(".menu");
 let header=document.querySelector("#header");
+let inputFields=document.querySelectorAll("input")
+let btns=document.querySelectorAll(".btn");
 
 
-// header.style.border="2px solid red";
-// header.style.boxShadow="3px 3px 10px black"
+
+// PREVENTING SUBMISSION OF DOCUMENT
+btns.forEach((btn)=>{
+    // btn.style.color="white";
+    btn.addEventListener("click", prevent)
+})
+function prevent(el){
+    el.preventDefault();
+}
+
+
+
+
+let inputs=Array.from(inputFields);
+// console.log(inputFields);
+console.log(inputs)
+inputs.forEach(
+    (input)=>{
+        if(input==invalid){
+        input.style.backgroundColor="red";
+        }
+    }
+)
+
+
+
+
+
 close_btn.addEventListener("click", closing);
 open_btn.addEventListener("click", opening);
 
